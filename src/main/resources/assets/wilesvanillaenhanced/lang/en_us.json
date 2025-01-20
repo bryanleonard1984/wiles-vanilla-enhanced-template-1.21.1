@@ -1,0 +1,12 @@
+{
+  "item.wilesvanillaenhanced.book_enchantment_core": "Book Enchantment Core",
+  "item.wilesvanillaenhanced.iron_chisel": "Iron Chisel",
+  "item.wilesvanillaenhanced.diamond_chisel": "Diamond Chisel",
+  "item.wilesvanillaenhanced.emerald_chisel": "Emerald Chisel",
+  "item.wilesvanillaenhanced.netherite_chisel": "Netherite Chisel",
+
+  "itemgroup.wilesvanillaenhanced.vanilla_enhanced_tools": "Vanilla Enhanced Tools",
+
+  "tooltip.wilesvanillaenhanced.chisel": "<Press §eshift§r for more info>",
+  "tooltip.wilesvanillaenhanced.chisel.shiftdown": "Chisel blocks into bricks and back!"
+}

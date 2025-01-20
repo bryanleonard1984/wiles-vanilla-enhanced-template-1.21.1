@@ -16,13 +16,13 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.bryanleonard1984.WilesVanillaEnhanced"
+			"net.bryanleonard1984.wilesvanillaenhanced.WilesVanillaEnhanced"
 		],
 		"fabric-datagen": [
-			"net.bryanleonard1984.WilesVanillaEnhancedDataGenerator"
+			"net.bryanleonard1984.wilesvanillaenhanced.WilesVanillaEnhancedDataGenerator"
 		],
 		"client": [
-			"net.bryanleonard1984.WilesVanillaEnhancedClient"
+			"net.bryanleonard1984.wilesvanillaenhanced.WilesVanillaEnhancedClient"
 		]
 	},
 	"mixins": [

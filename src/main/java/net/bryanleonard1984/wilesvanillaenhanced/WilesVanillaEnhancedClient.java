@@ -1,4 +1,4 @@
-package net.bryanleonard1984;
+package net.bryanleonard1984.wilesvanillaenhanced;
 
 import net.fabricmc.api.ClientModInitializer;
 

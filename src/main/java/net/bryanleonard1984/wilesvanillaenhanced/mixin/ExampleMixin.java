@@ -1,4 +1,4 @@
-package net.bryanleonard1984.mixin;
+package net.bryanleonard1984.wilesvanillaenhanced.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;
