@@ -27,5 +27,6 @@ public class ModModelProvider extends FabricModelProvider
         itemModelGenerator.register(ModItems.DIAMOND_CHISEL, Models.GENERATED);
         itemModelGenerator.register(ModItems.EMERALD_CHISEL, Models.GENERATED);
         itemModelGenerator.register(ModItems.NETHERITE_CHISEL, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BOOK_ENCHANTMENT_CORE, Models.GENERATED);
     }
 }

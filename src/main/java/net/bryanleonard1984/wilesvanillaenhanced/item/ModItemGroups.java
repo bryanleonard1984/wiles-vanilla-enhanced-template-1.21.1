@@ -23,6 +23,15 @@ public class ModItemGroups
                     entries.add(ModItems.NETHERITE_CHISEL);
                 })).build());
 
+    public static final ItemGroup VANILLA_ENHANCED_ITEMS = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(WilesVanillaEnhanced.MOD_ID, "vanilla_enhanced_items"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.BOOK_ENCHANTMENT_CORE))
+                    .displayName(Text.translatable("itemgroup.wilesvanillaenhanced.vanilla_enhanced_items"))
+                    .entries(((displayContext, entries) ->
+                    {
+                        entries.add(ModItems.BOOK_ENCHANTMENT_CORE);
+                    })).build());
+
 
     public static void registerModItemGroups()
     {

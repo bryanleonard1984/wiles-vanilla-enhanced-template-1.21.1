@@ -6,6 +6,7 @@
   "item.wilesvanillaenhanced.netherite_chisel": "Netherite Chisel",
 
   "itemgroup.wilesvanillaenhanced.vanilla_enhanced_tools": "Vanilla Enhanced Tools",
+  "itemgroup.wilesvanillaenhanced.vanilla_enhanced_items": "Vanilla Enhanced Tools",
 
   "tooltip.wilesvanillaenhanced.chisel": "<Press §eshift§r for more info>",
   "tooltip.wilesvanillaenhanced.chisel.shiftdown": "Chisel blocks into bricks and back!"
