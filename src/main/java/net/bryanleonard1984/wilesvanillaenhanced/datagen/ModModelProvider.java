@@ -1,5 +1,6 @@
 package net.bryanleonard1984.wilesvanillaenhanced.datagen;
 
+import net.bryanleonard1984.wilesvanillaenhanced.block.ModBlocks;
 import net.bryanleonard1984.wilesvanillaenhanced.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
@@ -17,7 +18,8 @@ public class ModModelProvider extends FabricModelProvider
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator)
     {
-
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RECLAMATION_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DECOMPOSTION_BLOCK);
     }
 
     @Override

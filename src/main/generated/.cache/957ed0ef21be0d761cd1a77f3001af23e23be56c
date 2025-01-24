@@ -1,6 +1,12 @@
-// 1.21.1	2025-01-21T20:31:46.464846799	Wile's Vanilla Enhanced/Model Definitions
+// 1.21.1	2025-01-24T08:48:19.920738887	Wile's Vanilla Enhanced/Model Definitions
+7434d6b38c6fe9a20fefeb592a142fbd82344a3c assets/wilesvanillaenhanced/models/block/decomposition_block.json
+b810835dc7bb6dcf2536b6d4a6085fb4e4d420d9 assets/wilesvanillaenhanced/blockstates/decomposition_block.json
 3cbca1e7a8ef4caa3a1628a074b9136892655095 assets/wilesvanillaenhanced/models/item/emerald_chisel.json
 cc4bb36976270be43cd06cc4d1582db14cafe939 assets/wilesvanillaenhanced/models/item/netherite_chisel.json
+0a3068738020e636b6f4a93eb12bf4450b586644 assets/wilesvanillaenhanced/models/item/reclamation_block.json
+5535dfd1d5763a2d5f52b5d7b4e533bd549f2f8e assets/wilesvanillaenhanced/models/item/decomposition_block.json
 5c1c8fd48e193f5183092aa0974b4a104cedc7a7 assets/wilesvanillaenhanced/models/item/diamond_chisel.json
 801291192913b4633641123adfff1d8447cb5bf9 assets/wilesvanillaenhanced/models/item/iron_chisel.json
+dd073df70811695a6856d3f072dd3d2619bf9d1f assets/wilesvanillaenhanced/blockstates/reclamation_block.json
 0bfc4cc3d4c330541bb1628a20c199a47472031e assets/wilesvanillaenhanced/models/item/book_enchantment_core.json
+f14d7d8c333d3761d783b986ed28f99f37d37d68 assets/wilesvanillaenhanced/models/block/reclamation_block.json

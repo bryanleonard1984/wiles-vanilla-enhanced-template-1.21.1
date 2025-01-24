@@ -1,6 +1,7 @@
 package net.bryanleonard1984.wilesvanillaenhanced.item;
 
 import net.bryanleonard1984.wilesvanillaenhanced.WilesVanillaEnhanced;
+import net.bryanleonard1984.wilesvanillaenhanced.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -30,6 +31,16 @@ public class ModItemGroups
                     .entries(((displayContext, entries) ->
                     {
                         entries.add(ModItems.BOOK_ENCHANTMENT_CORE);
+                    })).build());
+
+    public static final ItemGroup VANILLA_ENHANCED_BLOCKS = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(WilesVanillaEnhanced.MOD_ID, "vanilla_enhanced_blocks"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.RECLAMATION_BLOCK))
+                    .displayName(Text.translatable("itemgroup.wilesvanillaenhanced.vanilla_enhanced_blocks"))
+                    .entries(((displayContext, entries) ->
+                    {
+                        entries.add(ModBlocks.RECLAMATION_BLOCK);
+                        entries.add(ModBlocks.DECOMPOSTION_BLOCK);
                     })).build());
 
 

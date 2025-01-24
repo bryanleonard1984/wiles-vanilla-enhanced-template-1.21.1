@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "wilesvanillaenhanced:block/reclamation_block"
+    }
+  }
+}

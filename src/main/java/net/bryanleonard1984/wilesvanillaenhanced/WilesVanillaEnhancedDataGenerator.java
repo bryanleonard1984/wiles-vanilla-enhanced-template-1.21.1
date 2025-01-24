@@ -1,5 +1,6 @@
 package net.bryanleonard1984.wilesvanillaenhanced;
 
+import net.bryanleonard1984.wilesvanillaenhanced.datagen.ModItemTagProvider;
 import net.bryanleonard1984.wilesvanillaenhanced.datagen.ModModelProvider;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
@@ -11,6 +12,7 @@ public class WilesVanillaEnhancedDataGenerator implements DataGeneratorEntrypoin
 	{
 		FabricDataGenerator.Pack pack = fabricDataGenerator.createPack();
 
+		pack.addProvider(ModItemTagProvider::new);
 		pack.addProvider(ModModelProvider::new);
 	}
 }

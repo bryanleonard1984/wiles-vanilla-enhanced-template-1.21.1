@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "wilesvanillaenhanced:block/decomposition_block"
+  }
+}

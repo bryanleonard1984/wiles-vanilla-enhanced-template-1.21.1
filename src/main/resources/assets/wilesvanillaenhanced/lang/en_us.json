@@ -5,9 +5,15 @@
   "item.wilesvanillaenhanced.emerald_chisel": "Emerald Chisel",
   "item.wilesvanillaenhanced.netherite_chisel": "Netherite Chisel",
 
+  "block.wilesvanillaenhanced.reclamation_block": "Reclamation Block",
+  "block.wilesvanillaenhanced.decomposition_block": "Block of Decay",
+
   "itemgroup.wilesvanillaenhanced.vanilla_enhanced_tools": "Vanilla Enhanced Tools",
   "itemgroup.wilesvanillaenhanced.vanilla_enhanced_items": "Vanilla Enhanced Tools",
+  "itemgroup.wilesvanillaenhanced.vanilla_enhanced_blocks": "Vanilla Enhanced Blocks",
 
   "tooltip.wilesvanillaenhanced.chisel": "<Press §eshift§r for more info>",
-  "tooltip.wilesvanillaenhanced.chisel.shiftdown": "Chisel blocks into bricks and back!"
+  "tooltip.wilesvanillaenhanced.chisel.shiftdown": "Chisel blocks into bricks and back!",
+  "tooltip.wilesvanillaenhanced.reclamation_block.tooltip": "Reclaim that which has been decayed.",
+  "tooltip.wilesvanillaenhanced.decomposition_block.tooltip": "Throw item on top to decay it."
 }
